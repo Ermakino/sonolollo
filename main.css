@@ -1,0 +1,305 @@
+@font-face {
+  font-family: "Louis George Cafe";
+       src: url(Font/LGC.ttf) format('truetype');
+}
+* {
+color: white;
+text-align: center;
+vertical-align: middle;
+font-size: 140%;
+font-family:"Louis George Cafe";
+}
+
+body  {
+    background-color: "brown";
+  background-image:url(Immagini/Background.jpg);
+    
+}
+
+a:link {color: white; }
+a:visited {color: white; }
+a:hover {color: white; }
+a:active {color: white; }
+
+
+p {
+    padding:1px;
+}
+
+img {
+    padding: 80px;
+}
+
+
+.reddit {
+    background-color: #FF3500
+}
+
+.twitter {
+    background-color: #1D9BF0
+}
+
+.instagram {background-image: url(Immagini/instagram1.jpg);
+}
+
+.instagram:hover {background-color: #ddd; 
+}
+
+
+
+.videogiochi {
+  background-image: url(Immagini/thumb_vg.jpg);
+  width: 950px;
+    height: 300px;
+    margin: auto;
+    font-size: 110%;
+    border-radius: 40px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 300px;
+    margin-bottom: 50px;
+    
+
+}
+
+.standard {
+  background-image: url(Immagini/thumb_snd.jpg);
+  width: 950px;
+    height: 300px;
+    margin: auto;
+    font-size: 110%;
+    border-radius: 40px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 300px;
+    margin-bottom: 50px;
+    
+}
+
+
+
+.varie {
+  background-image: url(Immagini/thumb_vr.jpg);
+  width: 950px;
+    height: 300px;
+    margin: auto;
+    font-size: 110%;
+    border-radius: 40px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 300px;
+    margin-bottom: 50px;
+    
+}
+
+
+
+
+hr {
+    height: 10px;
+    color: #F5D300;
+    align-self: auto;
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mm1, .mm2 {
+    width: 910;
+    height: 537;
+    vertical-align: middle;
+    align-content: center;
+    box-sizing: inherit;
+}
+
+
+
+.mim1 {
+    font-size: 75%;
+}
+
+
+.mim2 {
+    font-size: 95%;
+}
+
+
+
+
+
+.abobussianiincalore{
+    font-size: 200%;
+}
+
+
+
+
+
+.risoluzioni {
+    font-size: 75%;
+    font-style: italic;
+}
+
+
+
+
+
+.wrapperDiv {
+    text-align: center;
+}
+
+
+
+
+
+button {
+    background-color: green;
+    box-shadow: 10px 10px 10px 10px solid black, 10 18px 24px 0 solid black;
+}
+
+
+button:hover {
+    background-color: lime;
+}
+
+
+button:checked {
+    background-color: darkgreen;
+}
+
+
+
+
+
+
+
+.about {
+    font-size: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+.superabobussiani {
+    color: black;
+}
+
+
+
+.shortcut {
+    text-align: left;
+    font-size: 80%;
+    vertical-align: middle;
+    font-style: italic;
+    position: fixed;
+}
+
+
+
+
+
+.bananajoe {
+    color: black;
+}
+
+
+.manutenzione {
+    box-shadow: 10px 10px 5px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar {
+  overflow: hidden;
+    justify-self: center;
+  background-color: transparent;
+    font-size: 20px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font: "Segoe UI";
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #207900;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0A0C58;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
